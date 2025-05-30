@@ -1,0 +1,79 @@
+/* My First And Basice Css Cods*/
+
+@font-face {
+    font-family: iransans;
+    src: url(src/fonts/IRANSansWeb.woff2);
+}
+
+* {
+    font-family: iransans;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    background-color: rgb(255, 255, 255);
+}
+
+/* mY Header Section Cods*/
+#header-one {
+    margin: 10px;
+    padding: 5px;
+    border-bottom: solid 1px rgb(255, 255, 255);
+
+}
+
+#h2-header-top {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#foroshgah-word-header-one {
+    color: rgb(12, 111, 31);
+}
+
+#iran-word-header-two {
+    color: rgb(238, 238, 238);
+
+}
+
+#system-word-header-three {
+    color: rgb(157, 7, 7);
+
+}
+
+/* mY Div searchbox Cods*/
+
+#searchbox-topdiv {
+    display: inline-block;
+    margin-right: 15px;
+    width: 40%;
+}
+
+#searchbox-top {
+    background-color: aliceblue;
+    border: none;
+    width: 80%;
+    max-width: 300px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 0 7px 7px 0;
+
+}
+
+#button-searchbox-top {
+    background-color: rgb(191, 32, 32);
+    border: none;
+    font-size: 20px;
+    padding: 8px 10px;
+    position: relative;
+    top: 2 px;
+    right: -4px;
+    border-radius: 7px 0 0 7px;
+
+
+
+}
+
+/*list Abshari Header Cods*/
+#top-nav{
+    list-style: none;
+}
